@@ -5,7 +5,7 @@ import subprocess
 import sys
 import re
 
-EXECUTABLE_NAME = "3700bridge"
+EXECUTABLE_NAME = "bridge"
 RUN_SCRIPT_NAME = "run"
 CONFIG_DIR = "configs"
 
