@@ -8,7 +8,7 @@ I did my best to avoid global variables as they are bad design, but chose to lea
 ## Good Features
 I avoided heavy use of global variables by creating a BridgeInfo class, and I also utilized multi-threading. This allowed me to continue sending out BPDUs while receiving them simultaneously.
 
-## How We Tested
+## How I Tested
 Most of my testing consisted of print debugging and running the simulator incrementally. The print statements were important as they provided insight into the simulator's operations. Based on this, I was able to determine where packets were being dropped or where I wasn't updating the bridge as needed. Once I achieved a satisfactory state where several configs were passing, I primarily relied on the `./test` file to test my code.
 
 ## Commands
