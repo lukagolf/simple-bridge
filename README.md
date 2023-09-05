@@ -13,5 +13,6 @@ Most of my testing consisted of print debugging and running the simulator increm
 
 ## Commands
 To run a certain config: `./run configs/simple-1.conf`
+
 To run all tests: `./test`
 
